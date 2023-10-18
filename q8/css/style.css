@@ -1,21 +1,28 @@
 @charset "UTF-8";
 
-.content {
+.back--img {
+  background: url(../../image/coffee-background.jpg);
+  background-size: auto;
   height: 500px;
 }
 
-.back--img {
-  background: url(../../image/coffee-background.jpg);
-}
-
 .back--img--repeat {
+  background-repeat: no-repeat;
+  height: 500px;
   background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .back--img--cover {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background: url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .back--img--contain {
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
   background: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
