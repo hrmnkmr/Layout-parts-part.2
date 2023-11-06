@@ -19,7 +19,7 @@
 
 @keyframes fadein {
   from {
-    opacity: 0.20;
+    opacity:0;
   }
 
   to {
